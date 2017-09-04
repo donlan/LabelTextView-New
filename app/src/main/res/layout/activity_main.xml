@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <dong.lan.repository.LabelTextView
+        android:id="@+id/text1"
+        android:layout_margin="20dp"
+        android:padding="16dp"
+        android:textSize="20sp"
+        app:radius="30dp"
+        android:textColor="#ffffff"
+        app:innerCircle="true"
+        app:bg_color="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LabelTextView"
+        app:gradientType="linear"
+        app:gradientStartColor="@color/colorAccent"
+        app:gradientCenterColor="@color/colorPrimary"
+        app:gradientEndColor="@color/colorPrimaryDark"
+        />
+
+
+    <dong.lan.repository.LabelTextView
+        android:layout_margin="20dp"
+        android:padding="16dp"
+        android:textSize="20sp"
+        app:radius="30dp"
+        app:strokeWidth="1dp"
+        android:textColor="@color/colorAccent"
+        app:bg_color="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LabelTextView"
+        />
+
+</LinearLayout>

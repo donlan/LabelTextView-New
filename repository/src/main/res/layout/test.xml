@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <lan.dong.repository.LabelTextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="LabelTextView"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:bg_color="@color/colorPrimary"
+        app:gradientCenterColor="@color/colorAccent"
+        app:gradientEndColor="@color/colorPrimaryDark"
+        app:gradientStartColor="@color/colorPrimary"
+        app:gradientType="linear"
+        app:innerCircle="true"
+        app:radius="40dp"
+        app:shadowColor="@color/colorAccent"
+        app:shadowRadius="5dp" />
+
+
+    <lan.dong.repository.LabelTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="16dp"
+        android:text="LabelTextView"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:gradientCenterColor="@color/colorAccent"
+        app:gradientEndColor="@color/colorPrimaryDark"
+        app:gradientStartColor="@color/colorPrimary"
+        app:bg_color="@color/colorPrimary"
+        app:gradientType="linear"
+        app:radius="30dp"
+        app:strokeWidth="1dp" />
+
+</LinearLayout>

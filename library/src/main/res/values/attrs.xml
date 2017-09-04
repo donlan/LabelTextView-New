@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="LabelTextView">
+        <attr name="bg_color" format="color" />
+        <attr name="radius" format="dimension" />
+        <attr name="clickAnimation" format="boolean" />
+        <attr name="shadowRadius" format="dimension" />
+        <attr name="shadowColor" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="innerCircle" format="boolean" />
+        <attr name="sweepStroke" format="dimension" />
+        <attr name="sweepPadding" format="dimension" />
+        <attr name="gradientType" format="string"></attr>
+        <attr name="gradientStartColor" format="color" />
+        <attr name="gradientEndColor" format="color" />
+        <attr name="gradientCenterColor" format="color" />
+    </declare-styleable>
+
+
+</resources>
