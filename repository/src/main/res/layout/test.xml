@@ -28,11 +28,55 @@
 
 
     <lan.dong.repository.LabelTextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Shadow Dx:1dp Dy:0dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:bg_color="@color/colorPrimary"
+        app:gradientCenterColor="@color/colorAccent"
+        app:gradientEndColor="@color/colorPrimaryDark"
+        app:gradientStartColor="@color/colorPrimary"
+        app:gradientType="linear"
+        app:innerCircle="true"
+        app:radius="40dp"
+        app:shadowDx="3dp"
+        app:shadowColor="@color/colorAccent"
+        app:shadowRadius="5dp" />
+
+
+    <lan.dong.repository.LabelTextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Shadow Dx:1dp Dy:2dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:bg_color="@color/colorPrimary"
+        app:gradientCenterColor="@color/colorAccent"
+        app:gradientEndColor="@color/colorPrimaryDark"
+        app:gradientStartColor="@color/colorPrimary"
+        app:gradientType="linear"
+        app:innerCircle="true"
+        app:radius="40dp"
+        app:shadowDx="1dp"
+        app:shadowDy="2dp"
+        app:shadowColor="@color/colorAccent"
+        app:shadowRadius="5dp" />
+
+
+    <lan.dong.repository.LabelTextView
+        android:gravity="center"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:padding="16dp"
-        android:text="LabelTextView"
+        android:text="Stroke Round Rect"
         android:textColor="@color/colorAccent"
         android:textSize="20sp"
         app:gradientCenterColor="@color/colorAccent"
